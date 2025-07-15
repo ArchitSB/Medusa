@@ -1,36 +1,23 @@
-import { defineMiddlewares } from "@medusajs/medusa"
+import { defineMiddlewares } from "@medusajs/framework";
 
 export default defineMiddlewares({
   routes: [
     {
-      method: "POST",
-      matcher: "/admin/customers/:id",
-      middlewares: [
-        (req, res, next) => {
-          // Prevent phone number updates through admin
-          if (req.body?.phone) {
-            return res.status(400).json({
-              message: "Phone number cannot be updated through admin. Use phone auth endpoints.",
-            })
-          }
-          next()
-        },
-      ],
-    },
-    {
-      method: "POST",
       matcher: "/store/customers/me",
+      method: ["POST"],
       middlewares: [
-        (req, res, next) => {
-          // Prevent phone number updates through store
-          if (req.body?.phone) {
+        async (req, res, next) => {
+          const { phone } = req.body as Record<string, string>
+
+          if (phone) {
             return res.status(400).json({
-              message: "Phone number cannot be updated through store. Use phone auth endpoints.",
+              error: "Phone number is not allowed to be updated"
             })
           }
+
           next()
-        },
-      ],
-    },
-  ],
+        }
+      ]
+    }
+  ]
 })
