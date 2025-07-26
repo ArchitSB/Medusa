@@ -1888,7 +1888,7 @@
     tailwindcss "^3.3.6"
     vite "^5.4.14"
 
-"@medusajs/admin-sdk@2.8.6":
+"@medusajs/admin-sdk@^2.8.6", "@medusajs/admin-sdk@2.8.6":
   version "2.8.6"
   resolved "https://registry.npmjs.org/@medusajs/admin-sdk/-/admin-sdk-2.8.6.tgz"
   integrity sha512-h2IZ/UmBTA1ODyQ+gnKTA5sWJgY+J6xrhPM34K0IeGdgTVA6k16F78l7BGKbCUX4mKrumiX51omMLT0oXRy7dQ==
@@ -1977,7 +1977,7 @@
   resolved "https://registry.npmjs.org/@medusajs/cart/-/cart-2.8.6.tgz"
   integrity sha512-vPXCCpW3H9WWVorWwcwanz9lK/QanTUXQQugoPI3pa1ZepoPGxIuvLG4bENRjR/vhjFJR2P62wzmI8pP3utcvA==
 
-"@medusajs/cli@2.8.6":
+"@medusajs/cli@^2.8.6", "@medusajs/cli@2.8.6":
   version "2.8.6"
   resolved "https://registry.npmjs.org/@medusajs/cli/-/cli-2.8.6.tgz"
   integrity sha512-fWYlZRNccBbpiH6nlD/bmTrU//XFeEXH63Ax9EjU6TB/ICZoO5g8PS8qa9N3XdyORXE5MGNT9u2hptcpbZfzGA==
@@ -2100,7 +2100,7 @@
   resolved "https://registry.npmjs.org/@medusajs/file/-/file-2.8.6.tgz"
   integrity sha512-lzibesA6HXti73NaoQCJD6UHjaihXoK6XRfqOhYH6+TgmTulAXnoyVzgp9Gb6uO0VNvKOrJ9uLnIty8ReCyFhA==
 
-"@medusajs/framework@2.8.6":
+"@medusajs/framework@^2.8.6", "@medusajs/framework@2.8.6":
   version "2.8.6"
   resolved "https://registry.npmjs.org/@medusajs/framework/-/framework-2.8.6.tgz"
   integrity sha512-znUrhTgKLoPpbWNdl8QOwOy4tmzxoyQmdfwq+lMR/L8kjSBgG8FhUHfyNhgQbovfNjMVTinubnzr74Hv6Q7h5g==
@@ -2140,7 +2140,7 @@
   resolved "https://registry.npmjs.org/@medusajs/fulfillment/-/fulfillment-2.8.6.tgz"
   integrity sha512-262LoV/ee3yFfFx7JtEbl7N7Dp5kYwbcCaZ90d7E7YffEnSUeaUaa0zGagJwk2ahd66SsW5e1F0I7VPIuZvLEQ==
 
-"@medusajs/icons@2.8.6":
+"@medusajs/icons@^2.8.6", "@medusajs/icons@2.8.6":
   version "2.8.6"
   resolved "https://registry.npmjs.org/@medusajs/icons/-/icons-2.8.6.tgz"
   integrity sha512-k3X1nA1L0eoR30tfAzCxTtpaE1h28K2qmuNyangOoBJObHkaD+gNIi3AG+2iLlmIrByzfCgzP0JvhzrtFFha4Q==
@@ -2155,7 +2155,7 @@
   resolved "https://registry.npmjs.org/@medusajs/inventory/-/inventory-2.8.6.tgz"
   integrity sha512-vgvUUIOkIA8w+uBhAh1Og87iNJ1O9oquPp7KJmOPZSBER0mJz2+KOVnF6umAXLhmNKl4hUiy+0p287xVrePW9w==
 
-"@medusajs/js-sdk@2.8.6":
+"@medusajs/js-sdk@^2.8.6", "@medusajs/js-sdk@2.8.6":
   version "2.8.6"
   resolved "https://registry.npmjs.org/@medusajs/js-sdk/-/js-sdk-2.8.6.tgz"
   integrity sha512-nrecLAeo+uHfL8u7WhUleysSRPjcgPLSgWbiRIq1oFeJU91M8xVlvNZgz+MSgwiDWCJsMYBr/8bgEu7+PxSy0w==
@@ -2186,7 +2186,7 @@
   resolved "https://registry.npmjs.org/@medusajs/locking/-/locking-2.8.6.tgz"
   integrity sha512-Ag818xjoc+sddpAICnzfhKPHrtNC3nvF1Yp2TKIku94n5zArK4xS+G7OqoLhYZGQiji8Srgc+yjCACdIiKVh5Q==
 
-"@medusajs/medusa@2.8.6":
+"@medusajs/medusa@^2.8.6", "@medusajs/medusa@2.8.6":
   version "2.8.6"
   resolved "https://registry.npmjs.org/@medusajs/medusa/-/medusa-2.8.6.tgz"
   integrity sha512-oIzoihMxV5tf5P1mDJ142NZZiLTDV+zHUj04DczWRJt+lQbIEWSnMI/rTloAlyzlh7n6z6U2aMhWiWfgL6J9zw==
@@ -2364,7 +2364,7 @@
     remove-trailing-slash "^0.1.1"
     uuid "^8.3.2"
 
-"@medusajs/test-utils@2.8.6":
+"@medusajs/test-utils@^2.8.6", "@medusajs/test-utils@2.8.6":
   version "2.8.6"
   resolved "https://registry.npmjs.org/@medusajs/test-utils/-/test-utils-2.8.6.tgz"
   integrity sha512-SrhtWUPc23PT3j7tNBLSo04mK4s2slsXbMCaE6AkknTKwTs2OOunzeLwI266q1lyhRHdejdIXp9BPXrEcPeLpQ==
@@ -2375,7 +2375,7 @@
     get-port "^5.1.0"
     randomatic "^3.1.1"
 
-"@medusajs/types@2.8.6":
+"@medusajs/types@^2.8.6", "@medusajs/types@2.8.6":
   version "2.8.6"
   resolved "https://registry.npmjs.org/@medusajs/types/-/types-2.8.6.tgz"
   integrity sha512-SAkRVASQL+Rd+snaq2kEXJCfJBUjB6U4PBKvS+yHWdTVnvGUxkD725I4W+hWORjCK85po0lNdhv5Hx5YVe2BoQ==
@@ -4514,6 +4514,11 @@
   resolved "https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.32.0.tgz"
   integrity sha512-VDzNHtLLI5s7xd/VubyS10mq6TxvZBp+4NRWoW+Hi3tgV05RtVm4qK99+dClwTN1McA6PHwob6DEJ6PlXbY83A==
 
+"@rollup/rollup-linux-x64-gnu@4.39.0":
+  version "4.39.0"
+  resolved "https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.39.0.tgz"
+  integrity sha512-t9jqYw27R6Lx0XKfEFe5vUeEJ5pF3SGIM6gTfONSMb7DuG6z6wfj2yjcoZxHg129veTqU7+wOhY6GX8wmf90dA==
+
 "@rollup/rollup-linux-x64-musl@4.32.0":
   version "4.32.0"
   resolved "https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.32.0.tgz"
@@ -5175,6 +5180,17 @@
   version "3.11.2"
   resolved "https://registry.npmjs.org/@tanstack/virtual-core/-/virtual-core-3.11.2.tgz"
   integrity sha512-vTtpNt7mKCiZ1pwU9hfKPhpdVO2sVzFQsxoVBGtOSHxlrRRzYr8iQ2TlwbAcRYCcEiZ9ECAM8kBzH0v2+VzfKw==
+
+"@techlabi/medusa-marketplace-plugin@^0.28.0":
+  version "0.28.0"
+  resolved "https://registry.npmjs.org/@techlabi/medusa-marketplace-plugin/-/medusa-marketplace-plugin-0.28.0.tgz"
+  integrity sha512-Bk9+gBsRjc7qJkfi7wYeWIptOu4SsSmfAsYlpnTxBtVBH2xmIDkI7MXPH2bExGnfW6Da9fQJGXA7z1zULNRDzA==
+  dependencies:
+    "@medusajs/icons" "^2.8.6"
+    "@medusajs/js-sdk" "^2.8.6"
+    "@medusajs/types" "^2.8.6"
+  optionalDependencies:
+    "@rollup/rollup-linux-x64-gnu" "4.39.0"
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.11"

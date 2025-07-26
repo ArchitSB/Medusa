@@ -3,6 +3,15 @@ import { loadEnv, defineConfig, Modules, ContainerRegistrationKeys } from '@medu
 loadEnv(process.env.NODE_ENV || 'development', process.cwd())
 
 module.exports = defineConfig({
+  admin: {
+    vite: () => {
+      return {
+        optimizeDeps: {
+          include: ["qs"],
+        },
+      };
+    },
+  },
   projectConfig: {
     databaseUrl: process.env.DATABASE_URL,
     http: {
@@ -64,5 +73,11 @@ module.exports = defineConfig({
         ],
       },
     }
-  ]
+  ],
+  plugins: [
+    {
+      resolve: "@techlabi/medusa-marketplace-plugin",
+      options: {},
+    },
+  ],
 })
