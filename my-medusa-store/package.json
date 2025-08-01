@@ -15,8 +15,10 @@
   "scripts": {
     "build": "medusa build",
     "seed": "medusa exec ./src/scripts/seed.ts",
+    "get-api-key": "medusa exec ./src/scripts/get-api-key.ts",
     "start": "medusa start",
     "dev": "medusa develop",
+    "test:e2e": "jest src/test/marketplace.e2e.test.js",
     "postinstall": "node node_modules/@techlabi/medusa-marketplace-plugin/.medusa/server/src/patch-admin.js",
     "test:integration:http": "TEST_TYPE=integration:http NODE_OPTIONS=--experimental-vm-modules jest --silent=false --runInBand --forceExit",
     "test:integration:modules": "TEST_TYPE=integration:modules NODE_OPTIONS=--experimental-vm-modules jest --silent --runInBand --forceExit",
@@ -35,6 +37,7 @@
     "awilix": "^8.0.1",
     "jsonwebtoken": "^9.0.2",
     "pg": "^8.13.0",
+    "supertest": "^7.1.4",
     "twilio": "^5.7.3"
   },
   "devDependencies": {
